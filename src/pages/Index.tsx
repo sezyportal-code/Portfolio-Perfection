@@ -228,6 +228,10 @@ function AetherHero() {
             width: '100%',
             maxWidth,
             textAlign,
+            margin: '0 auto',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
           }}
         >
           <h1
@@ -251,6 +255,7 @@ function AetherHero() {
               opacity: 0.9,
               textShadow: '0 4px 24px rgba(0,0,0,0.35)',
               maxWidth: 900,
+              margin: '1rem auto 0',
             }}
           >
             {subtitle}
@@ -258,7 +263,8 @@ function AetherHero() {
 
           <div
             style={{
-              display: 'inline-flex',
+              display: 'flex',
+              justifyContent: 'center',
               gap: '12px',
               marginTop: '2rem',
               flexWrap: 'wrap',
