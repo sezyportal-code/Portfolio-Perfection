@@ -60,7 +60,7 @@ function AetherHero() {
   const ctaHref = "#about";
   const secondaryCtaLabel = "GitHub";
   const secondaryCtaHref = "https://github.com/rahil1202";
-  const align = 'left';
+  const align = 'center';
   const maxWidth = 960;
   const overlayGradient = "linear-gradient(180deg, #000000bb 0%, #00000055 40%, transparent)";
   const textColor = '#ffffff';
